@@ -1,0 +1,17 @@
+Package: ASLutils
+Title: Andrew's R Utilities for FRET Analysis, Among Other Things
+Version: 0.1.0
+Authors@R: person("Andrew", "Lyon", email = "andrewlyon8@gmail.com", role = c("aut",
+    "cre"))
+Description:
+    Utilities for manipulating plate reader data, linear unmixing of spectral 
+    data for FRET analysis, fitting binding curves, and making nice plots of binding data.
+Depends: R (>= 3.4.2)
+Imports: minpack.lm
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
